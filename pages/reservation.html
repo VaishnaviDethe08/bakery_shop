@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery - Fresh Cakes & Small Chops</title>
+    <script src="js/app.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo">Bakery</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/reservation.html" class="nav-link">Reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pages/bakers.html" class="nav-link">Bakers</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+<section id="reservation" class="reservation">
+    <div class="container">
+        <div class="reservation__container">
+            <h4>Book Your Table</h4>
+            <form action="#" class="reservation__form">
+                <select name="persons">
+                    <option>1 Person</option>
+                    <option>2 Person</option>
+                    <option>3 Person</option>
+                    <option>4 Person</option>
+                    <option>5 Person</option>
+                    <option>6 Person</option>
+                    <option>7 Person</option>
+                </select>
+                <input type="date" class="reservation__date">
+                <input type="time" class="reservation__time">
+                <button class="btn btn-primary submit__reservation">Book Now</button>
+            </form>
+        </div>
+    </div>
+</section>
+</body>
+</html>
